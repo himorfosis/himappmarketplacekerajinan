@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Provinsi Tujuan"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:textColor="@color/hitam"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/provinsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pilih Tujuan"
+        android:textSize="16dp"
+        android:textColor="@color/hitam"
+        android:layout_marginBottom="5dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/hitam"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kabupaten Tujuan"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:textColor="@color/hitam"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/kabupaten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pilih Tujuan"
+        android:textSize="16dp"
+        android:textColor="@color/hitam"
+        android:layout_marginBottom="5dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/hitam"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kurir"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:textColor="@color/hitam"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/kurir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pilih Kurir"
+        android:textSize="16dp"
+        android:textColor="@color/hitam"
+        android:layout_marginBottom="5dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/hitam"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Berat ( gram )"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:textColor="@color/hitam"
+        />
+
+    <EditText
+        android:id="@+id/berat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+
+        />
+
+
+    <Button
+        android:id="@+id/cekongkir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/primaryTrans"
+        android:text="Cek Biaya"
+        android:textAllCaps="false"
+        android:textSize="18dp"
+        android:textColor="@color/putih"/>
+
+    <TextView
+        android:id="@+id/biayaongkir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="16dp"
+        android:textColor="@color/hitam"/>
+
+</LinearLayout>

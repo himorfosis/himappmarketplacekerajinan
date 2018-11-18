@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1097582962669",
+    "firebase_url": "https://kerajinanaceh-cebd8.firebaseio.com",
+    "project_id": "kerajinanaceh-cebd8",
+    "storage_bucket": "kerajinanaceh-cebd8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097582962669:android:ea7aa4ab20ab5255",
+        "android_client_info": {
+          "package_name": "himorfosis.kerajinanaceh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097582962669-0jej73ai569pdel2sb48hfbu29g41sj2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "himorfosis.kerajinanaceh",
+            "certificate_hash": "faba1ea8e52877ae5ea861526d08581116bde94d"
+          }
+        },
+        {
+          "client_id": "1097582962669-248sqhge34oivvclj6ik4h652lv0olqq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEQHriYadpmI86poLqdkUFLR077ooq29c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097582962669-248sqhge34oivvclj6ik4h652lv0olqq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
